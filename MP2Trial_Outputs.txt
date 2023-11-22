@@ -1,0 +1,141 @@
+Statement  1 : 
+['\n 5\n int x = 10, y = 8, z = -2', '\n x = x + y', '\n y = x - y', '\n x = x - y', '\n z = x + y', '\n \n']
+
+Output:
+x = 10
+y = 8
+z = -2
+ x = x + y
+ y = x - y
+ x = x - y
+ z = x + y
+
+ 
+
+Statement  2 : 
+['6\n int x, y, min', '\n cin>>x', '\n cin>>y', '\n min = x', '\n if(y < min)\n     min = y', '\n \n']
+
+Output:
+ cin>>x
+ cin>>y
+ min = x
+ if(y < min)
+     min = y
+
+ 
+
+Statement  3 : 
+['5\n for(int i=0', ' i<n', ' i++){\n     sum = i', '\n     sum = sum + 2', '\n     sum += 9', '\n }\n \n \n']
+
+Output
+5
+ for(int i=0
+ i<n
+ i++){
+     sum = i
+
+     sum = sum + 2
+
+     sum += 9
+
+ }
+ 
+ 
+
+Statement  4 : 
+["8\n char ch = 'a', inp", '\n cin>>inp', '\n if(inp > a)\n     inp = inp - ch', '\n else{\n     inp = inp + ch', '\n     ch = ch + inp', '\n }\n \n']
+ch = 'a'
+
+ cin>>inp
+
+ if(inp > a)
+     inp = inp - ch
+
+ else{
+     inp = inp + ch
+
+     ch = ch + inp
+
+ }
+ 
+
+Statement  5 : 
+['8\n for(iter = 10', ' iter<n+10', ' iter+=2){\n     if(iter%8 == 0){\n         cout<<iter<<endl', '\n         cout<<iter + 8<<endl', '\n     }\n     counter++', '\n     sum = sum + iter', '\n }\n \n']
+8
+ for(iter = 10
+ iter<n+10
+ iter+=2){
+     if(iter%8 == 0){
+         cout<<iter<<endl
+
+         cout<<iter + 8<<endl
+
+     }
+     counter++
+
+     sum = sum + iter
+
+ }
+ 
+
+Statement  6 : 
+['8\n int x, y, min, max', '\n cin>>x', '\n cin>>y', '\n min = x', '\n if(y < min)\n     min = y', '\n max = y', '\n max = max - min', '\n \n']
+
+ cin>>x
+
+ cin>>y
+
+ min = x
+
+ if(y < min)
+     min = y
+
+ max = y
+
+ max = max - min
+
+ 
+
+Statement  7 : 
+['8\n for(int i=0', ' i<n', ' i++){\n     sum = i', '\n     sum = sum + 2', '\n     sum += 9', '\n }\n ++sum', '\n --sum', '\n sum = n', '\n \n \n \n']
+8
+ for(int i=0
+ i<n
+ i++){
+     sum = i
+
+     sum = sum + 2
+
+     sum += 9
+
+ }
+ ++sum
+
+ --sum
+
+ sum = n
+
+ 
+ 
+ 
+
+Statement  8 : 
+['1\n int x = 10, y = 8, z = -2', 'x = x + y', 'y = x - y', 'x = x - y', 'z = x + y', '\n \n \n \n']
+x = 10
+y = 8
+z = -2
+x = x + y
+y = x - y
+x = x - y
+z = x + y
+
+ 
+ 
+ 
+
+Statement  9 : 
+['1\n int x, y, min', 'cin>>x', 'cin>>y', 'min = x', 'if(y < min)min = y', '\n \n \n \n']
+cin>>x
+cin>>y
+min = x
+if(y < min)min = y

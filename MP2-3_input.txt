@@ -1,0 +1,279 @@
+Input 1:
+14
+int x=-2, y=9, min=0;
+cin>>x;
+cin>>y;
+min = x;
+if(y < min)
+    min = y;
+x = min;
+y = x;
+if(x == y){
+    x = x + y;
+    y = x - y;
+    x = x - y;
+}
+min = y < x;
+
+Input 2:
+11
+for(int i=0; i<n; i++){
+    sum = i;
+    sum = sum + 2;
+    sum += 9;
+}
+sum = 0;
+for(int i=1; i<=n; i++){
+    sum = i;
+    sum = sum + 2;
+    sum += 9;
+}
+
+
+Input 3:
+7
+for (int i = 1; i <= 10; i++)
+    a = 2 * b;
+a = 0;
+b = a > 0;
+for (int i = 1; i <= 20; i++) {
+    a = 2 * b;
+}
+
+Input 4:
+19
+int x=-2, y=9, min=0;
+cin>>x;
+cin>>y;
+min = x;
+if(y < min)
+    min = y;
+x = min;
+y = x;
+if(x == y){
+    x = x + y;
+    y = x - y;
+    x = x - y;
+}
+else
+    x = y = 0;
+    min = y < x;
+    x = x + y;
+    y = x - y;
+    x = x - y;
+
+Input 5:
+3
+for(int i=1; i<=4; i++)
+    for(int j=1; j<=4; j++)
+        sum = i < j;
+
+Input 6:
+6
+for(int i=1; i<=4; i++)
+    for(int j=1; j<=4; j++){
+        sum = i < j;
+        sum = 0;
+        num = num + 10;
+    }
+
+
+Input 7:
+6
+for(int i=1; i<=4; i++){
+    for(int j=1; j<=4; j++)
+        sum = i < j;
+        sum = 0;
+        num = num + 10;
+    }
+
+
+
+Input 8:
+5
+for(int i=1; i<=4; i++)
+    for(int j=1; j<=4; j++)
+        sum = i < j;
+        sum = 0;
+        num = num + 10;
+
+
+Input 9:
+9
+for(int i=1; i<=5; i++)
+    for(int j=1; j<=4; j++)
+        sum = i < j;
+num = num + 10;
+for(int i=1; i<=10; i++)
+    for(int j=1; j<=2; j++)
+        sum = i < j;
+        a += 3;
+        b += z;
+
+
+
+Input 10:
+6
+for(int i=1; i<=n; i++)
+    for(int j=1; j<=n; j++){
+        sum = i < j;
+        x -= 5;
+        y += x;
+    }
+
+
+
+Input 11:
+6
+for(int i=1; i<=n; i++){
+    for(int j=1; j<=n; j++)
+        sum = i < j;
+        x -= 5;
+        y += x;
+    }
+
+
+
+Input 12:
+6
+for(int i=1; i<=n; i++)
+    for(int j=1; j<=n; j++)
+        sum = i < j;
+        x -= 5;
+        y += x;
+num = num + 10;
+
+
+
+
+Input 13:
+13
+for(int i=1; i<=n; i++)
+    for(int j=1; j<=n; j++)
+        sum = i < j;
+    num = num + 9;
+for(int i=1; i<=n; i++){
+    a += b;
+    b += a;
+    for(int j=1; j<=n; j++){
+        sum = i < j;
+        num = num - 10;
+    }
+}
+x = y + z;
+
+
+
+Input 14:
+8
+for(int i=1; i<=n; i++)
+    for(int j=1; j<=n; j++)
+        sum = i < j;
+    num = num + 9;
+for(int i=1; i<=m; i++)
+    for(int j=1; j<=m; j++)
+        sum = i < j;
+x = y + z;
+
+
+
+Input 15:
+8
+for(int i=1; i<=m; i++)
+    for(int j=1; j<=m; j++)
+        sum = i < j;
+    num = num + 9;
+for(int i=1; i<=n; i++)
+    for(int j=1; j<=n; j++)
+        sum = i < j;
+x = y + z;
+
+
+
+Input 16:
+7
+x = 0;
+sum = 0;
+for(int i=1; i<=n; i++){
+    x = x + sum;
+    for(int j=1; j<=m; j++)
+        sum = i < j + 103 * x - 4 + sum++;
+}
+
+
+
+Input 17:
+7
+x = 0;
+sum = 0;
+for(int i=0; i<n; i++){
+    x = x + sum;
+    for(int j=0; j<m; j++)
+        sum = i < j + 103 * x - 4 + sum++;
+}
+
+
+
+Input 18:
+7
+x = 0;
+sum = 0;
+for(int i=1; i<n+1; i++){
+    x = x + sum;
+    for(int j=1; j<m+1; j++)
+        sum = i < j + 103 * x - 4 + sum++;
+}
+
+
+
+
+Input 19:
+14
+x = 0;
+y = 0;
+sum = 0;
+for(int i=1; i<n+1; i++){
+    x = x + sum;
+    for(int j=1; j<m+1; j++)
+        sum = i < j + 103 * x - 4 + sum++;
+}
+num = 0;
+for(int i=1; i<n+1; i++){
+    y = y + num;
+    for(int j=1; j<m+1; j++)
+        num = i < j + 103 * y - 4 + num++;
+}
+
+
+
+Input 20:
+7
+x = 0;
+sum = 0;
+for(int i=1; i*i<=n; i++){
+    x = x + sum;
+    for(int j=1; j<=m; j++)
+        sum = i < j + 103 * x - 4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

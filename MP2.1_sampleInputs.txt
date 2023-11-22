@@ -1,0 +1,90 @@
+
+input 1:
+5
+int x = 10, y = 8, z = -2;
+x = x + y;
+y = x - y;
+x = x - y;
+z = x + y;
+
+input 2:
+6
+int x, y, min;
+cin>>x;
+cin>>y;
+min = x;
+if(y < min)
+    min = y;
+
+input 3:
+5
+for(int i=0; i<n; i++){
+    sum = i;
+    sum = sum + 2;
+    sum += 9;
+}
+
+
+input 4:
+8
+char ch = 'a', inp;
+cin>>inp;
+if(inp > a)
+    inp = inp - ch;
+else{
+    inp = inp + ch;
+    ch = ch + inp;
+}
+
+input 5:
+8
+for(iter = 10; iter<n+10; iter+=2){
+    if(iter%8 == 0){
+        cout<<iter<<endl;
+        cout<<iter + 8<<endl;
+    }
+    counter++;
+    sum = sum + iter;
+}
+
+input 6:
+8
+int x, y, min, max;
+cin>>x;
+cin>>y;
+min = x;
+if(y < min)
+    min = y;
+max = y;
+max = max - min;
+
+input 7:
+8
+for(int i=0; i<n; i++){
+    sum = i;
+    sum = sum + 2;
+    sum += 9;
+}
+++sum;
+--sum;
+sum = n;
+
+
+
+input 8:
+1
+int x = 10, y = 8, z = -2;x = x + y;y = x - y;x = x - y;z = x + y;
+
+
+
+input 9:
+1
+int x, y, min;cin>>x;cin>>y;min = x;if(y < min)min = y;
+
+
+
+input 10:
+1
+for(int i=0; i<n; i++){sum = i;sum = sum + 2;sum += 9;}
+
+
