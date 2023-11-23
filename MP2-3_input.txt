@@ -260,6 +260,23 @@ for(int i=1; i*i<=n; i++){
 
 
 
+####
+elif(findElse(str)>=0):
+        inside = 4
+        return 4, inside   
+
+if len(exp_statements)>0:
+        t_n = t_n + switch(1,exp_statements)
+    if len(if_statements)>0:
+        if len(else_statements)>0:
+            temp = [index for (index, item) in enumerate(if_statements) if "if" in item]
+            print("reverse", temp)
+            #if switch(1,else_statements) > switch(2,if_statements)
+        t_n = t_n + switch(2,if_statements)
+    if len(for_statements)>0:
+        t_n = switch(4,for_statements)
+
+    print("T(n) =",t_n)
 
 
 
